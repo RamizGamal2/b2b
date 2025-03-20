@@ -2,5 +2,18 @@
   "HomePage": {
     "title": "اهلا",
     "about": "بيك في موسكو"
+  },
+
+  
+    "Sidebar": {
+    "dashboard":"لوحة التحكم",
+    "Employee progress": "تقدم الموظفين",
+    "Subscription Management": "إدارة الاشتراكات",
+      "Notifications": "الإشعارات",
+      "Technical Support": "الدعم الفني",
+      "Account Management":"إدارة الحساب",
+       "Organization Profile":"الملف الشخصي للمنشئة",
+       "AI Assistant": "مساعد الذكاء الصناعي", 
+       "Settings": "الإعدادات"
   }
 }

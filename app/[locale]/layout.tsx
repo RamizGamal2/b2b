@@ -1,7 +1,12 @@
 import {NextIntlClientProvider, Locale, hasLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
  
+
+
+
 export default async function LocaleLayout({
   children,
   params

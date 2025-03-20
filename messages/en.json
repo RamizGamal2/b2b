@@ -2,5 +2,18 @@
   "HomePage": {
     "title": "welcome",
     "about": "to mosco"
+  },
+
+    "Sidebar": {
+    "dashboard": "Dashboard",
+    "Employee progress": "Employee progress",
+    "Subscription Management": "Subscription Management",
+    "Notifications": "Notifications",
+    "Technical Support": "Technical Support",
+    "Account Management":"Account Management",
+    "Organization Profile":"Organization Profile",
+    "AI Assistant": "AI Assistant",
+    "Settings" :"Settings"
   }
 }
+
