@@ -25,5 +25,17 @@
     "completed_courses": "Completed Courses",
     "ongoing_courses": "Ongoing Courses",
     "issued_certificates": "Issued Certificates"
+  },
+    "Sidebar": {
+    "dashboard": "Dashboard",
+    "Employee progress": "Employee progress",
+    "Subscription Management": "Subscription Management",
+    "Notifications": "Notifications",
+    "Technical Support": "Technical Support",
+    "Account Management":"Account Management",
+    "Organization Profile":"Organization Profile",
+    "AI Assistant": "AI Assistant",
+    "Settings" :"Settings"
   }
 }
+

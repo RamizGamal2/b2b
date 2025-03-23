@@ -5,17 +5,30 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'IBM Plex Sans Arabic';
-  src: url('/fonts/IBMPlexSansArabic-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  background-color: #f8f9fa !important;
+  font-family: 'IBM Plex Sans Arabic', sans-serif !important;
+}
+
+html {
+  transition: direction 0.3s ease-in-out;
 }
 
 
 body {
   background-color: #f8f9fa !important;
   font-family: 'IBM Plex Sans Arabic', sans-serif !important;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html {
@@ -76,6 +89,46 @@ p {
   line-height: 150% !important;
 }
 
+h3 {
+  color: #2d3748;
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 25.2px */
+}
+
+h4 {
+  color: #57585e;
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 19.6px */
+}
+
+h5 {
+  color: #57585e;
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 19.6px */
+}
+
+h6 {
+  color: #a0aec0;
+  text-align: right;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  /* 18px */
+}
+
 .text-light {
   color: #fff !important;
 }
@@ -103,4 +156,13 @@ input[type="search"]::-webkit-search-results-decoration {
 input:focus {
   box-shadow: none !important;
   border-color: transparent !important;
+}
+
+.ft {
+  color: #ffffff;
+  text-align: right;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
