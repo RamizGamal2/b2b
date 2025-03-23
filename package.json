@@ -6,13 +6,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sass": "sass --watch sass/main.scss:css/main.min.css"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "next": "15.2.3",
     "next-intl": "^4.0.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "recharts": "^2.15.1",
+    "sass": "^1.86.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

@@ -1,6 +1,29 @@
 {
-  "HomePage": {
-    "title": "welcome",
-    "about": "to mosco"
+  "Navbar": {
+    "search": "Search...",
+    "dashboard": "Dashboard",
+    "home": "Home"
+  },
+  "Dashboard": {
+    "employees_registered": "Number of employees registered in training",
+    "employees_value": "250 Employees",
+    "active_courses": "Number of active courses:",
+    "active_courses_value": "15 Training Courses",
+    "total_certificates": "Total certificates earned:",
+    "total_certificates_value": "120 Certificates",
+    "course_completion": "Course completion rate",
+    "completion_value": "78%",
+    "training_dashboard_title": "Training Control Panel",
+    "training_dashboard_desc": "Track your employees’ training progress and maximize the benefit from professional development programs.",
+    "training_dashboard_cta": "Track Employee Progress",
+    "training_system_title": "Training and Development Management System",
+    "training_system_desc": "Monitor training performance and develop your employees’ skills smoothly with an integrated dashboard that provides accurate analytics and instant progress reports.",
+    "training_system_cta": "User Guide",
+    "active_users_analysis_title": "Active Users Analysis",
+    "active_users_analysis_desc": "Monitoring user engagement with training programs during the current period.",
+    "total_courses": "Total Courses",
+    "completed_courses": "Completed Courses",
+    "ongoing_courses": "Ongoing Courses",
+    "issued_certificates": "Issued Certificates"
   }
 }

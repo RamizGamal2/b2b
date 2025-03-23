@@ -1,0 +1,18 @@
+// Define custom Bootstrap variables BEFORE importing Bootstrap
+$primary: #216ED7;
+$secondary: #50C1FA;
+
+// import the functions & variables
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$custom-theme-colors: (
+    "d-black": #2D3748,
+    "m-black": #57585E,
+    "l-black": #57585E
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+// Import Bootstrap's SCSS (so it uses the new variables)
+@import "../node_modules/bootstrap/scss/bootstrap";

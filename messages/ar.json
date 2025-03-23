@@ -1,6 +1,29 @@
 {
-  "HomePage": {
-    "title": "اهلا",
-    "about": "بيك في موسكو"
+  "Navbar": {
+    "search": "أريد أن ابحث عن ....",
+    "dashboard": "لوحة التحكم",
+    "home": "الرئيسية"
+  },
+  "Dashboard": {
+    "employees_registered": "عدد الموظفين المسجلين في التدريب",
+    "employees_value": "250 موظف",
+    "active_courses": "عدد الدورات النشطة:",
+    "active_courses_value": "15 دورة تدريبية",
+    "total_certificates": "إجمالي الشهادات المكتسبة:",
+    "total_certificates_value": "120 شهادة",
+    "course_completion": "نسبة إكمال الدورات",
+    "completion_value": "78%",
+    "training_dashboard_title": "لوحة تحكم تدريب الموظفين",
+    "training_dashboard_desc": "تابع تقدم موظفيك في التدريب وحقق أقصى استفادة من برامج التطوير المهني",
+    "training_dashboard_cta": "متابعة تقدم الموظف",
+    "training_system_title": "نظام إدارة التدريب والتطوير",
+    "training_system_desc": "تابع أداء التدريب وطور مهارات موظفيك بسلاسة من خلال لوحة تحكم متكاملة تمنحك تحليلات دقيقة وتقارير فورية عن التقدم والإنجازات.",
+    "training_system_cta": "دليل الاستخدام",
+    "active_users_analysis_title": "تحليل المستخدمين النشطين",
+    "active_users_analysis_desc": "رصد مستوى التفاعل مع البرامج التدريبية خلال الفترة الحالية.",
+    "total_courses": "إجمالي الدورات",
+    "completed_courses": "الدورات المكتملة",
+    "ongoing_courses": "الدورات الجارية",
+    "issued_certificates": "الشهادات الصادرة"
   }
 }
